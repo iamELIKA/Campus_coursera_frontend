@@ -1,16 +1,24 @@
 import React from 'react';
-import Card from '../components/card';
+import Navbar from '@/components/navbar';
+import Footer from '@/components/footer';
+import Aboutus from '@/components/aboutus';
+import Courseoff from '@/components/coursesoff';
+import Projects from '@/components/projects';
 
 const HomePage = () => {
   return (
     <div>
-      <Card
-        imageUrl="path/to/image.jpg"
-        name="John Doe"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      />
-      {/* Add more instances of the Card component as needed */}
+      <Navbar/>
+
+      <Aboutus/>
+      
+      <Courseoff/>
+
+      <Projects/>
+
+      <Footer/>
     </div>
+
   );
 };
 
